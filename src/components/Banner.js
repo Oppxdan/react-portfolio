@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Banner = () => {
-  <div id="home" className="section">
+  return (<div id="home" className="section">
     Banner
-  </div>;
+  </div>);
 };
 
 export default Banner;
