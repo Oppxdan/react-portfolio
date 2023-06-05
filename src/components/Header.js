@@ -1,17 +1,22 @@
 import React from 'react';
+// images
 import Logo from '../assets/logo.png';
 
 const Header = () => {
-  return <header className="py-8">
-    <div className="container mx-auto">
-      <div className="flex justify-between items-center">
-        <a href="#">
-          <img className="logo-png" src={Logo} alt="logo" />
-        </a>
-        <button className="btn btn-sm">Work With Me</button>
+  return (
+    <header className='py-8'>
+      <div className='container mx-auto'>
+        <div className='flex justify-between items-center'>
+          {/* logo */}
+          <a href='#'>
+            <img className="site-logo" src={Logo} alt='' />
+          </a>
+          {/* button */}
+          <a className='btn btn-sm btn-header'>Work with me</a>
+        </div>
       </div>
-    </div>
-  </header>;
+    </header>
+  );
 };
 
 export default Header;

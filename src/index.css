@@ -23,6 +23,12 @@
   );
 }
 
+.btn-header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
 .gradient,
 .active {
   background: linear-gradient(
@@ -40,9 +46,18 @@
   border-radius: 100%;
 }
 
-.logo-png {
+.site-logo {
   width: 100px;
   height: auto;
+}
+
+.banner-icon {
+  width: 100%;
+  height: auto;
+}
+
+.am-margin {
+  margin-top: 20px;
 }
 
 @layer base {
