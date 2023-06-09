@@ -27,11 +27,13 @@ const Work = () => {
                 Work.
               </h2>
               <p className='max-w-sm mb-16'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat, hic! Harum quis, cum velit neque esse eos molestias
-                doloremque explicabo!
+                A mini-showcase of my diverse portfolio, highlighting my 
+                proficiency in front-end development and my ability 
+                to deliver visually appealing and user-friendly websites.
               </p>
-              <button className='btn btn-sm'>View all projects</button>
+              <a href="https://github.com/Oppxdan" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-sm">View All Projects</button>
+              </a>
             </div>
             {/* image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>

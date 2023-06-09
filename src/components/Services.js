@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 // icon
 import { BsArrowUpRight } from 'react-icons/bs';
 // motion
@@ -9,28 +10,27 @@ import { fadeIn } from '../variants';
 // services data
 const services = [
   {
-    name: 'UI/UX Design',
+    name: 'HTML/CSS',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
-    link: 'Learn more',
+      'Able to utilize semantic HTML markup and CSS styling techniques to ensure clean and organized code, and delivering engaging user interfaces that seamlessly adapt across different devices and screen sizes.',
+    
   },
   {
-    name: 'Development',
+    name: 'Vanilla JavaScript',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
-    link: 'Learn more',
+      'Understanding of core JavaScript concepts and the ability to create dynamic and interactive web applications, leveraging my knowledge of DOM manipulation, event handling, and OOP deliver engaging user experiences.',
+    
   },
   {
-    name: 'Digital Marketing',
+    name: 'ReactJS',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
-    link: 'Learn more',
+      'A solid foundation in building interactive and responsive user interfaces using React components, leveraging my knowledge of JavaScript, JSX, and the React ecosystem to contribute to the development of web applications.',
+    
   },
   {
-    name: 'Product Branding',
+    name: 'Soft Skills',
     description:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia quo expedita accusamus illum ducimus.',
-    link: 'Learn more',
+      'Communication, Teamwork, Adaptability, Problem-solving, Time management, Attention to detail, Proactiveness, Self-motivation, Listening, Professionalism'
   },
 ];
 
@@ -49,9 +49,13 @@ const Services = () => {
           >
             <h2 className='h2 text-accent mb-6'>What I Do.</h2>
             <h3 className='h3 max-w-[455px] mb-16'>
-              I'm a Front-end Developer with experience through professional work and projects.
+              I'm a Front-end Developer with Experience
+               Through Professional Work and Projects.
             </h3>
-            <button className='btn btn-sm'>See my work</button>
+            <a href="https://github.com/Oppxdan" target="_blank" rel="noopener noreferrer">
+              <button className="btn btn-sm">See my work</button>
+            </a>
+
           </motion.div>
           {/* services */}
           <motion.div
@@ -65,7 +69,7 @@ const Services = () => {
             <div>
               {services.map((service, index) => {
                 // destructure service
-                const { name, description, link } = service;
+                const { name, description } = service;
                 return (
                   <div
                     className='border-b border-white/20 h-[146px] mb-[38px] flex'
@@ -78,17 +82,6 @@ const Services = () => {
                       <p className='font-secondary leading-tight'>
                         {description}
                       </p>
-                    </div>
-                    <div className='flex flex-col flex-1 items-end'>
-                      <a
-                        href='#'
-                        className='btn w-9 h-9 mb-[42px] flex justify-center items-center'
-                      >
-                        <BsArrowUpRight />
-                      </a>
-                      <a href='#' className='text-gradient text-sm'>
-                        {link}
-                      </a>
                     </div>
                   </div>
                 );

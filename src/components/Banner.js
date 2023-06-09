@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 // images
 import Image from '../assets/banner-icon.gif';
 // icons
-import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion
@@ -90,13 +90,10 @@ const Banner = () => {
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
             >
               <a href='#'>
-                <FaYoutube />
-              </a>
-              <a href='#'>
                 <FaGithub />
               </a>
               <a href='#'>
-                <FaDribbble />
+                <FaLinkedin />
               </a>
             </motion.div>
           </div>
