@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 // images
 import Image from '../assets/banner-icon.gif';
 // icons
@@ -71,9 +72,14 @@ const Banner = () => {
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
             >
               <button className='btn btn-lg'>Contact me</button>
-              <a href='#' className='text-gradient btn-link'>
-                My Portfolio
-              </a>
+              <Link
+                to='services'
+                smooth={true}
+                duration={500}
+                className='text-gradient btn-link hover:cursor-pointer'
+              >
+                My Work
+              </Link>
             </motion.div>
             {/* socials */}
             <motion.div
