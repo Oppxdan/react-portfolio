@@ -18,7 +18,7 @@ const Work = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'
+            className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0 items-center'
           >
             {/* text */}
             <div>
@@ -36,23 +36,25 @@ const Work = () => {
               </a>
             </div>
             {/* image */}
-            <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+            <div className='project-container group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
               <img
-                className='group-hover:scale-125 transition-all duration-500'
+                className='group-hover:scale-125 transition-all duration-500 w-full'
                 src={Img1}
                 alt=''
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>ReactJS Calculator</span>
               </div>
-              {/* title */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
-              </div>
+              
+              <a href="https://github.com/Oppxdan/react-calculator" className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+                <div>
+                  <span className='text-3xl text-white'>View Project</span>
+                </div>
+              </a>
             </div>
           </motion.div>
           <motion.div
@@ -60,10 +62,10 @@ const Work = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 flex flex-col gap-y-10'
+            className='flex-1 flex flex-col gap-y-10 items-center'
           >
             {/* image */}
-            <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+            <div className='project-container group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
@@ -74,15 +76,17 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>To Do List</span>
               </div>
-              {/* title */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
-              </div>
+              
+              <a href="https://github.com/Oppxdan/todo-app" className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+                <div>
+                  <span className='text-3xl text-white'>View Project</span>
+                </div>
+              </a>
             </div>
             {/* image */}
-            <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+            <div className='project-container group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
@@ -93,12 +97,14 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Meet the Team Page</span>
               </div>
-              {/* title */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
-              </div>
+              
+              <a href="https://github.com/Oppxdan/react-app-2023" className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+                <div>
+                  <span className='text-3xl text-white'>View Project</span>
+                </div>
+              </a>
             </div>
           </motion.div>
         </div>

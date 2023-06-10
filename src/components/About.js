@@ -41,7 +41,9 @@ const About = () => {
               solutions ensures that I consistently exceed client expectations.
             </p>
             <div className='flex gap-x-8 items-center' style={{ justifyContent: 'center' }}>
-              <button className='btn btn-lg'>Contact me</button>
+              <ScrollLink to='contact' smooth={true} duration={500}>
+                <button className='btn btn-lg'>Contact me</button>
+              </ScrollLink>
               <ScrollLink to='services' smooth={true} duration={500} className='text-gradient btn-link hover:cursor-pointer'>
                 My Work
               </ScrollLink>

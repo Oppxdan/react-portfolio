@@ -52,10 +52,15 @@ const Services = () => {
               I'm a Front-end Developer with Experience
                Through Professional Work and Projects.
             </h3>
-            <a href="https://github.com/Oppxdan" target="_blank" rel="noopener noreferrer">
-              <button className="btn btn-sm">See my work</button>
-            </a>
+            <div className="flex flex-col h-105 justify-between">
+              <a href="https://github.com/Oppxdan" target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-sm">See my work</button>
+              </a>
+              <a href="https://github.com/Oppxdan" target="_blank" rel="text-gradient btn-link hover:cursor-pointer">
+                <button className="btn-nobg text-gradient">My Resume</button>
 
+              </a>
+            </div>
           </motion.div>
           {/* services */}
           <motion.div
