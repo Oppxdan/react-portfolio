@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 // images
 import Image from '../assets/banner-icon.gif';
 // icons
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion
@@ -91,11 +91,14 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
             >
-              <a href='#'>
+              <a href='https://github.com/Oppxdan'>
                 <FaGithub />
               </a>
-              <a href='#'>
+              <a href='https://www.linkedin.com/in/aaron-regalado-5780a3224/'>
                 <FaLinkedin />
+              </a>
+              <a href='mailto:aaron.a.regalado@gmail.com'>
+                <FaMailBulk />
               </a>
             </motion.div>
           </div>

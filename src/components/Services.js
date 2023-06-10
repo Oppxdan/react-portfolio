@@ -7,6 +7,8 @@ import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
 
+const pdfPath = process.env.PUBLIC_URL + '/Aaron_Regalado-Resume-1.pdf';
+
 // services data
 const services = [
   {
@@ -56,7 +58,7 @@ const Services = () => {
               <a href="https://github.com/Oppxdan" target="_blank" rel="noopener noreferrer">
                 <button className="btn btn-sm">See my work</button>
               </a>
-              <a href="https://github.com/Oppxdan" target="_blank" rel="text-gradient btn-link hover:cursor-pointer">
+              <a href={pdfPath} target="_blank" rel="text-gradient btn-link hover:cursor-pointer">
                 <button className="btn-nobg text-gradient">My Resume</button>
 
               </a>

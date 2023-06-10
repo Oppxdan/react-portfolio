@@ -40,6 +40,10 @@
   );
 }
 
+body {
+  margin-bottom: -5px;
+}
+
 .active {
   color: #fff;
   padding: 1rem;
