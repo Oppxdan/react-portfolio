@@ -44,6 +44,11 @@ body {
   margin-bottom: -5px;
 }
 
+.btn-sent {
+  background-color: green;
+  border-radius: 10px;
+}
+
 .active {
   color: #fff;
   padding: 1rem;
