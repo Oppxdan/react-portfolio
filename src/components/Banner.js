@@ -12,6 +12,8 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
 const Banner = () => {
+  const pdfPath = process.env.PUBLIC_URL + '/Aaron_Regalado-Resume-1.pdf';
+
   return (
     <section
       className='min-h-[85vh] lg:min-h-[78vh] flex items-center'
@@ -74,14 +76,9 @@ const Banner = () => {
               <Link to='contact' smooth={true} duration={500}>
                 <button className='btn btn-lg'>Contact me</button>
               </Link>
-              <Link
-                to='services'
-                smooth={true}
-                duration={500}
-                className='text-gradient btn-link hover:cursor-pointer'
-              >
-                My Work
-              </Link>
+              <a href={pdfPath} target="_blank" rel="text-gradient btn-link hover:cursor-pointer">
+                <button className="btn-nobg text-gradient">My Resume</button>
+              </a>
             </motion.div>
             {/* socials */}
             <motion.div
@@ -109,7 +106,7 @@ const Banner = () => {
             whileInView={'show'}
             className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'
           >
-            <img className="banner-icon" src={Image} alt='' />
+            <img className="banner-icon" src={Image} alt='Computer with Mouse Clicking on List Gif' />
           </motion.div>
         </div>
       </div>

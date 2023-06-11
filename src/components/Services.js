@@ -1,8 +1,4 @@
 import React from 'react';
-import { Link } from 'react-scroll';
-// icon
-import { BsArrowUpRight } from 'react-icons/bs';
-// motion
 import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from '../variants';
@@ -60,7 +56,6 @@ const Services = () => {
               </a>
               <a href={pdfPath} target="_blank" rel="text-gradient btn-link hover:cursor-pointer">
                 <button className="btn-nobg text-gradient">My Resume</button>
-
               </a>
             </div>
           </motion.div>
