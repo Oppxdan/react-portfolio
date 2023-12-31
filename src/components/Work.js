@@ -31,9 +31,6 @@ const Work = () => {
                 proficiency in front-end development and my ability 
                 to deliver visually appealing and user-friendly websites.
               </p>
-              <a href="https://github.com/Oppxdan" target="_blank" rel="noopener noreferrer">
-                <button className="btn btn-sm">View All Projects</button>
-              </a>
             </div>
             {/* image */}
             <div className='project-container group relative overflow-hidden border-2 border-white/50 rounded-xl'>
