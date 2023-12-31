@@ -47,10 +47,10 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>ReactJS Calculator</span>
+                <span className='text-gradient'>AnnaGriffin E-Commerce</span>
               </div>
               
-              <a href="https://github.com/Oppxdan/react-calculator" className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+              <a href="https://annagriffin.com" className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
                 <div>
                   <span className='text-3xl text-white'>View Project</span>
                 </div>
@@ -79,7 +79,7 @@ const Work = () => {
                 <span className='text-gradient'>To Do List</span>
               </div>
               
-              <a href="https://github.com/Oppxdan/todo-app" className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+              <a href="https://oppxdan.github.io/todo-app/" className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
                 <div>
                   <span className='text-3xl text-white'>View Project</span>
                 </div>
@@ -97,10 +97,10 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>Meet the Team Page</span>
+                <span className='text-gradient'>SpringWorks Therapeutics</span>
               </div>
               
-              <a href="https://github.com/Oppxdan/react-app-2023" className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+              <a href="https://springworkstx.com/" className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
                 <div>
                   <span className='text-3xl text-white'>View Project</span>
                 </div>
